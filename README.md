@@ -1,6 +1,6 @@
 # ALX HIGHER LEVEL PROGRAMMING
 
-These files in this repository are the lessons in higher level programming using the popular programming language, `Python.` These study of Python marked the second section of the one year intensive software engineering training for cohort 9.
+The files in this repository are the lessons in higher level programming using the popular programming language, `Python.` The study of Python marked the second section of the one year intensive software engineering training for cohort 9.
 
 ## What is Python
 
