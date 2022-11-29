@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 for i in range(100):
-    if i < 10:
-        print('{}'.format('0' + str(i)), end=', ')
-    elif i == 99:
+    if i == 99:
         print(i)
     else:
-        print('{}'.format(i), end=', ')
+        print('{}'.format('0' + str(i) if i < 10 else i), end=', ')
