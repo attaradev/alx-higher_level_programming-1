@@ -5,8 +5,11 @@ def max_integer(my_list=[]):
 
         @my_list: the list of integers
     '''
-    max_val = 0
-    for val in my_list:
-        if val > max_val:
-            max_val = val
+    if len(my_list) == 0:
+        return None
+
+    max_val = my_list[0]
+    for i in range(len(my_list)):
+        if my_list[i] > max_val:
+            max_val = my_list[i]
     return max_val
