@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     """A program that prints all names defined by hidden_4 module"""
-    import sys
+    import hidden_4
 
     vals = dir(hidden_4)
     for val in vals:
